@@ -1,0 +1,122 @@
+.ggrid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-flow: row;
+    grid-template-rows: 1fr;
+}
+
+.product-section{
+    padding: clamp(2em, 5vw,5em) 0;
+    padding-bottom: clamp(3em, 5vw,6em) ;
+}
+
+.p-h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-bottom: .5em;
+   white-space: nowrap;
+}
+
+.p-h1::before, .p-h1::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin: 0 10px;
+}
+
+.cart-grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    grid-template-rows: 1fr;
+}
+
+
+
+.checkout-div{
+    padding: 1em 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.checkout-btn{
+    padding: 1em 3em;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(18, 22, 14);
+    color: white;
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .cart-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .ggrid{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+
+.modal-overlay {
+    position: fixed;
+    background-color: rgba(21, 15, 27, 0.5);
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    width: min(80%, 400px);
+    background-color: white;
+    padding: 2em 2em;
+    position: relative;
+    border-radius: 8px;
+  }
+  
+  /* Modal Icon */
+  .modal-icon {
+    margin-bottom: 1em;
+    border-radius: 100px;
+    color: rgb(104, 151, 57);
+  }
+  
+  /* Go Back Button */
+  .go-back-btn {
+    padding: 1em 3em;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(20, 22, 18);
+    color: white;
+    margin-top: 2em;
+    cursor: pointer;
+  }
+  
+  /* Close Icon */
+  .close-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0.5;
+    padding: 1em;
+    cursor: pointer;
+  }

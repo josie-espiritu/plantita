@@ -1,0 +1,116 @@
+.productCard{
+display: grid;
+border: 2px solid rgba(20, 26, 23,.5);
+padding: 10px;
+width: 100%;
+text-align: center;
+
+border-radius: 16px;
+}
+
+.p-price{
+    margin-top: clamp(0, 4vw, 1em);
+    font-size: clamp(14px, 2vw, 18px);
+}
+
+img{
+    width: 100%;
+    max-width: 500px;
+    object-fit: cover;
+    border-radius: 16px;
+    border: solid rgb(128, 128, 128,.1);
+}
+
+.btn-add-to-cart{
+    padding: .5rem 0;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-top: clamp(1em, 4vw,3em);
+    font-size: clamp(12px, 3vw,20px) !important;
+}
+
+.btn-add-to-cart:hover{
+    color: white;
+    background-color: rgb(35, 53, 44);
+    transition: .3s;
+}
+
+h3{
+    margin-top: .3em;
+    font-size: clamp(18px, 4vw, 30px);
+}
+
+
+.q-btn{
+    background-color: rgb(160, 175, 139);
+    padding: clamp(.7em, 1vw,1em);
+    border-radius: 50px;
+    border:  none;
+    cursor: pointer;
+}
+
+.q-btn:hover{
+    background-color:  rgba(38, 77, 59, 0.8);
+    transition: .3s;
+    color: white;
+}
+
+.q-input{
+
+   padding: 0 clamp(1em, 4vw,3em);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.q-div{
+    display: flex;
+    border: 1px solid;
+    width:100%;
+    justify-content: space-between;
+    border-radius: 50px;
+
+}
+
+.cart-item{
+    display: flex;
+    border: 2px solid  rgba(128, 128, 128,.4);
+    padding: .5em;
+    gap: 10px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+
+.desc-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.cart-item img{
+    min-width: 100px;
+}
+
+.minus{
+    border-top-right-radius: 0 ;
+    border-bottom-right-radius: 0;
+}
+
+.add{
+    border-top-left-radius: 0 ;
+    border-bottom-left-radius: 0;
+}
+
+.cart-h3{
+
+    font-size: clamp(18px, 4vw, 30px);
+        word-break: break-word; 
+        overflow-wrap: break-word; 
+        word-wrap: break-word; 
+        white-space: normal; 
+     
+}
