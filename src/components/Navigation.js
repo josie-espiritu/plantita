@@ -26,7 +26,7 @@ const Navigation = () => {
 
       <div className='nav' id='top'>
         <div className='container flex-container nav-bar'>
-          <div className='logo' ><Link to='/plantita/#top'>PLANTITA</Link></div>
+          <div className='logo' ><Link to='/#top'>PLANTITA</Link></div>
 
           <div>
 
@@ -44,8 +44,8 @@ const Navigation = () => {
               </div>
               {isOpen && (
                 <div  className='m-container'>
-                <Link to='/plantita/products' className='dflex' >Products  <FontAwesomeIcon icon={faSeedling}/></Link>
-                <Link to='/plantita/cart' className='dflex'>Cart  <FontAwesomeIcon icon={faShoppingCart} />
+                <Link to='/products' className='dflex' >Products  <FontAwesomeIcon icon={faSeedling}/></Link>
+                <Link to='/cart' className='dflex'>Cart  <FontAwesomeIcon icon={faShoppingCart} />
                   <span>{totalItems}</span>
                 </Link>
                 </div>
@@ -55,8 +55,8 @@ const Navigation = () => {
 
 
             <div className='desktop-menu'>
-              <Link to='/plantita/products' >Products  <FontAwesomeIcon icon={faSeedling}/></Link>
-              <Link to='/plantita/cart' className='dflex'>Cart  <FontAwesomeIcon icon={faShoppingCart} />
+              <Link to='/products' >Products  <FontAwesomeIcon icon={faSeedling}/></Link>
+              <Link to='/cart' className='dflex'>Cart  <FontAwesomeIcon icon={faShoppingCart} />
                 <span>{totalItems}</span>
               </Link>
             </div>
@@ -66,9 +66,9 @@ const Navigation = () => {
       </div>
 
       <Routes>
-        <Route path='/plantita/' element={<Homepage/>} />
-        <Route path='/plantita/cart' element={<Cart/>}/>
-        <Route path='/plantita/products' element={<Products/>}/>
+        <Route path='/' element={<Homepage/>} />
+        <Route path='/cart' element={<Cart/>}/>
+        <Route path='/products' element={<Products/>}/>
       </Routes>
     </>
   )
