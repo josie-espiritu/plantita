@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/plantita/static/css/main.057db9bd.css",
-    "main.js": "/plantita/static/js/main.c156e421.js",
+    "main.js": "/plantita/static/js/main.6627ce10.js",
     "static/js/488.61f582a3.chunk.js": "/plantita/static/js/488.61f582a3.chunk.js",
     "static/media/color.jpg": "/plantita/static/media/color.f6e7f0a0e139c41ae281.jpg",
     "static/media/cozy.jpg": "/plantita/static/media/cozy.5a25da2df68587710377.jpg",
@@ -18,14 +18,13 @@
     "static/media/cast iron plant.png": "/plantita/static/media/cast iron plant.2d95f3a039abd822b1fb.png",
     "static/media/snake plant.png": "/plantita/static/media/snake plant.dd4194ccf6dbedb03487.png",
     "static/media/eggplant ear plant.png": "/plantita/static/media/eggplant ear plant.ac072c16439abb47aa9d.png",
-    "static/media/logo.svg": "/plantita/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/plantita/index.html",
     "main.057db9bd.css.map": "/plantita/static/css/main.057db9bd.css.map",
-    "main.c156e421.js.map": "/plantita/static/js/main.c156e421.js.map",
+    "main.6627ce10.js.map": "/plantita/static/js/main.6627ce10.js.map",
     "488.61f582a3.chunk.js.map": "/plantita/static/js/488.61f582a3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.057db9bd.css",
-    "static/js/main.c156e421.js"
+    "static/js/main.6627ce10.js"
   ]
 }
