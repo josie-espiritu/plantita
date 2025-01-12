@@ -8,7 +8,6 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { faSeedling , faBars} from '@fortawesome/free-solid-svg-icons';
 import { ShopContext } from '../providers/ShopProvider';
 
-
 const Navigation = () => {
 
   const [isOpen, setIsOpen] = useState(false)
