@@ -25,7 +25,7 @@ const Navigation = () => {
 
       <div className='nav' id='top'>
         <div className='container flex-container nav-bar'>
-          <div className='logo' ><Link to='/#top'>PLANTITA</Link></div>
+          <div className='logo' ><Link to='/'>PLANTITA</Link></div>
 
           <div>
 
